@@ -9,7 +9,7 @@ export function SiteFooter({ name }: SiteFooterProps) {
         {name}
       </a>
       <p>
-        Portfolio foundation · Replace placeholder content before publishing.
+        © {new Date().getFullYear()} {name}
       </p>
       <a className="site-footer__top" href="#top">
         Back to top <span aria-hidden="true">↑</span>
